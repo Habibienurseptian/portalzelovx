@@ -1,0 +1,43 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+@keyframes split-in-top {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-split-in-top {
+    animation: split-in-top 1s ease-in-out forwards;
+  }
+@keyframes split-in-right {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-split-in-right {
+    animation: split-in-right 1s ease-in-out forwards;
+  }
+
+@keyframes split-in-left {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-split-in-left {
+    animation: split-in-left 1s ease-in-out forwards;
+  }
+  
