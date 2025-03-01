@@ -38,7 +38,7 @@ function App() {
                 
               </div>
             </div>
-            <div className='w-[50%] flex items-center justify-center animate-split-in-right'>
+            <div className='md:w-[40%] w-[50%] flex items-center justify-center animate-split-in-right'>
               <div className='flex'>
                 <img className='bg-purple-500 hover:bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7]  rounded-bl-3xl rounded-tr-3xl transition duration-300 hover:scale-110' src={Foto} alt="Foto" />
               </div>
