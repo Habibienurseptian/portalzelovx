@@ -62,7 +62,7 @@ function App() {
                       <h2 className='font-semibold text-2xl'>Admin Panel Mahasiswa</h2>
                       <p className='font-light'>Tugas Admin Panel Mahasiswa</p>
                     </div>
-                    <button className='bg-purple-500 hover:bg-purple-950 rounded-full transition duration-300 ease-in-out hover:scale w-full mt-auto font-bold'><a href="https://admpnl.vercel.app/">Click</a></button>
+                    <a href="https://admpnl.vercel.app/"><button className='bg-purple-500 hover:bg-purple-950 rounded-full transition duration-300 ease-in-out hover:scale w-full mt-auto font-bold'>Click</button></a>
                   </div>
                 </div>
 
@@ -73,7 +73,7 @@ function App() {
                       <h2 className='font-semibold text-2xl'>Clone Twitter</h2>
                       <p className='font-light'>Clone twitter tapi ga selesai mending turu...cape wkwk..</p>
                     </div>
-                    <button className='bg-purple-500 hover:bg-purple-950 rounded-full transition duration-300 ease-in-out hover:scale w-full font-bold'><a href="https://frmfufufafa.vercel.app/">Click</a></button>
+                    <a href="https://frmfufufafa.vercel.app/"><button className='bg-purple-500 hover:bg-purple-950 rounded-full transition duration-300 ease-in-out hover:scale w-full font-bold'>Click</button></a>
                   </div>
                 </div>
                 
@@ -106,7 +106,7 @@ function App() {
       <Navbar />
         <section id='profile' className='px-12 py-10'>
           <div className='flex flex-col h-full'>
-            <div className='flex items-center justify-center animate-split-in-left'>
+            <div className='flex items-center justify-center'>
               <div className='flex flex-col'>
                 <h1 className='font-bold text-4xl py-2'>Selamat Datang, Chat....</h1>
                 <h2 className='font-bold text-2xl py-2'>Frontend Developer</h2>
@@ -118,7 +118,7 @@ function App() {
                 <IconSosmed />
               </div>
             </div>
-            <div className='flex items-center justify-center animate-split-in-right'>
+            <div className='flex items-center justify-center'>
               <div className='mt-6'>
                 <img className='bg-purple-500 hover:bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7]  rounded-bl-3xl rounded-tr-3xl transition duration-300 hover:scale-105' src={Foto} alt="Foto" />
               </div>
@@ -127,7 +127,7 @@ function App() {
         </section>
 
         <section id='project' className='px-12'>
-          <div className='h-full w-full flex flex-col items-center py-4 animate-split-in-left'>
+          <div className='h-full w-full flex flex-col items-center py-4'>
             <h2 className='text-2xl font-semibold'>Project</h2>
             <div className='mt-4'>
               <div className='grid gap-4 mb-4'>
@@ -138,7 +138,7 @@ function App() {
                       <h2 className='font-semibold text-2xl'>Admin Panel Mahasiswa</h2>
                       <p className='font-light'>Tugas Admin Panel Mahasiswa</p>
                     </div>
-                    <button className='bg-purple-500 hover:bg-purple-950 rounded-full transition duration-300 ease-in-out hover:scale w-full mt-auto font-bold'><a href="https://admpnl.vercel.app/">Click</a></button>
+                    <a href="https://admpnl.vercel.app/"><button className='bg-purple-500 hover:bg-purple-950 rounded-full transition duration-300 ease-in-out hover:scale w-full mt-auto font-bold'>Click</button></a>
                   </div>
                 </div>
 
@@ -149,7 +149,7 @@ function App() {
                       <h2 className='font-semibold text-2xl'>Clone Twitter</h2>
                       <p className='font-light'>Clone twitter tapi ga selesai mending turu...cape wkwk..</p>
                     </div>
-                    <button className='bg-purple-500 hover:bg-purple-950 rounded-full transition duration-300 ease-in-out hover:scale w-full font-bold'><a href="https://frmfufufafa.vercel.app/">Click</a></button>
+                    <a href="https://frmfufufafa.vercel.app/"><button className='bg-purple-500 hover:bg-purple-950 rounded-full transition duration-300 ease-in-out hover:scale w-full font-bold'>Click</button></a>
                   </div>
                 </div>
 
@@ -167,8 +167,8 @@ function App() {
             <h2 className='text-2xl font-semibold'>Language</h2>
             <div className='mt-4'>
               <div className='flex flex-col gap-8 items-center justify-center w-28'>
-                <img src={HTML} alt="" className='animate-split-in-left' />
-                <img src={CSS} alt="" className='animate-split-in-right'/>
+                <img src={HTML} alt=""/>
+                <img src={CSS} alt=""/>
               </div>
              
             </div>
